@@ -6,7 +6,7 @@
 
 ### [ERD](docs/erd.md)
 
-### [인프라 구성도](#)
+### [인프라 구성도](docs/infrastructure.md)
 
 ## Getting Started
 
