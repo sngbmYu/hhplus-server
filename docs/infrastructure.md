@@ -2,7 +2,7 @@
 
 ---
 
-![인프라 구성도](infrastructure.png)
+![인프라 구성도](infrastructure.jpg)
 
 ---
 ## 인프라 설명

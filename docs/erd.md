@@ -2,7 +2,6 @@
 
 ---
 
-![ERD](erd.png)
 ### [사이트에서 확인](https://www.erdcloud.com/d/CEhw9CcuihD4dqEdF)
 
 ---
