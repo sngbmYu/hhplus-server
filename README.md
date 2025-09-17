@@ -1,12 +1,13 @@
 ## 프로젝트
 
-### [시퀀스 다이어그램](#)
+### [시퀀스 다이어그램](docs/sequence.md)
 
-### [API 명세서](#)
+### [API 명세서](docs/api-spec.yml)
+- docker-compose 실행 하신 후, [localhost](http://localhost:8080)에 접속하시면 swagger-ui로 확인하실 수 있습니다.
 
-### [ERD](#)
+### [ERD](docs/erd.md)
 
-### [인프라 구성도](#)
+### [인프라 구성도](docs/infrastructure.md)
 
 ## Getting Started
 

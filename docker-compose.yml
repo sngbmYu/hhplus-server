@@ -11,6 +11,21 @@ services:
       - MYSQL_DATABASE=hhplus
     volumes:
       - ./data/mysql/:/var/lib/mysql
+  prism:
+    image: stoplight/prism
+    command: mock -h 0.0.0.0 /specs/api-spec.yml
+    ports:
+      - "4010:4010"
+    volumes:
+      - ./docs/api-spec.yml:/specs/api-spec.yml:ro
+  swagger-ui:
+    image: swaggerapi/swagger-ui
+    ports:
+      - "8080:8080"
+    environment:
+      - SWAGGER_JSON=/usr/share/nginx/html/docs/api-spec.yml
+    volumes:
+      - ./docs/:/usr/share/nginx/html/docs:ro
 
 networks:
   default:
